@@ -1,0 +1,229 @@
+/*
+Theme Name: Daedalus
+Theme URI: https://wordpress.org/themes/twentytwentyfour/
+Author: Anup Sheth
+Author URI: https://www.anupsheth.com
+Description: Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.
+Requires at least: 6.4
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyfour
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
+*/
+
+
+/* **** HEADER STYLES **** */
+
+.page-header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	transition: all 0.2s ease-in-out;
+}
+
+.logged-in.admin-bar .page-header {
+	top: 32px;
+}
+@media screen and (max-width: 782px) {
+	.logged-in.admin-bar .page-header {
+	  top: 48px;
+	}
+}
+
+/*Fixed/Sticky Header */
+.sticky-styles {
+	background-color: #3B414F !important;
+}
+
+@media screen and (max-width: 782px) {
+	.logged-in.admin-bar .sticky-styles {
+	  top: 0;
+	}
+}
+
+/* Top Header Styles */
+
+.location-icon-positioning img {
+	position: relative;
+    top: -4px;
+}
+
+.phone-icon-positioning img {
+	position: relative;
+    top: -6px;
+}
+
+.header-button-icon-positioning img {
+	position: relative;
+    top: 2px;
+    padding-right: 8px;
+}
+
+.header-button-background a:hover {
+	background-color: #1E439A !important;
+}
+
+@media (max-width: 1022px) {
+	.desktop-only {
+		display: none;
+	}
+}
+
+/* Bottom Header Styles */
+
+.navigation-link-styles a:hover {
+	text-decoration: none;
+	color: #D2E0FF !important;
+}
+
+/* Change the WordPress default mobile menu to appear at 1023px */
+@media (min-width: 1023px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: none !important;
+    }
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: block !important;
+        width: 100%;
+        position: relative;
+        z-index: auto;
+        background-color: inherit;
+    }
+}
+/* Remove the WordPress default mobile menu for 600px */
+@media (min-width: 600px) {
+    .wp-block-navigation__responsive-container-open:not(.always-shown) {
+        display: flex;
+    }
+    .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+        display: none;
+    }
+}
+
+/* Mobile Menu Modal Style */
+
+.has-modal-open .wp-block-navigation__responsive-container {
+	background-color: #3B414F !important;
+}
+
+
+/* **** HOME PAGE STYLES **** */
+
+.hero-button a:hover {
+	background: white !important;
+	color: rgba(0,0,0,.6) !important;
+}
+
+.cover-bottom-copy {
+	position:absolute;
+	bottom: 0;
+	right: 0;
+	width:100%;
+}
+
+/* Animated Scroll Down */
+
+.round {
+    position: relative;
+    border: 3px solid #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    animation: bounce .4s ease infinite alternate;
+}
+
+.round span {
+    z-index: 999;
+    height: 3px;
+    margin:1px;
+    width: 30px;
+    background: #fff;
+    transition: 0.4s ease;
+}
+
+.round span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 35%;
+}
+
+.round span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 35%;
+}
+
+.round span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 25%;
+    bottom: 54%;
+}
+
+.round span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+@keyframes bounce {
+  0% {
+      text-shadow:
+                  0 5px 0 #ccc,
+                  0 2px 3px rgba(0, 0, 0, 1);  
+  }
+  100% {
+    transform:translateY(-20px);
+    text-shadow:  0 50px 0 black,
+                  0 0px 20px rgba(0, 0, 0, .8);
+  }
+}
+
+/* fixed header scroll offset */
+
+html {
+	scroll-behavior: smooth;
+}
+
+.scroll-margin {
+	scroll-margin-top: 4rem;
+}
+
+/* **** BUTTON STYLES **** */
+
+.wp-block-button a {
+	transition: all 500ms ease-in;
+}
+
+/* **** NAVIGATION STYLES **** */
+
+.wp-block-navigation li {
+	text-transform: uppercase;
+}
