@@ -8,24 +8,38 @@
 
 <!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/st-louis-arch.jpg","id":70,"dimRatio":20,"focalPoint":{"x":0.5,"y":0.73},"minHeight":100,"minHeightUnit":"vh","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px"}}},"className":"hero-image fullheight","layout":{"type":"default"}} -->
 <div class="wp-block-cover hero-image fullheight" style="margin-top:0;margin-bottom:0;padding-right:0px;padding-left:0px;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-70" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/st-louis-arch.jpg" style="object-position:50% 73%" data-object-fit="cover" data-object-position="50% 73%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"1280px","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"textTransform":"uppercase","fontSize":"3rem"}}} -->
-<h1 class="wp-block-heading alignwide" style="font-size:3rem;text-transform:uppercase">Empowering Victims.<br>Pursuing Justice.<br>Advocacy Tailored for You.</h1>
+<div class="wp-block-group alignwide"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"textTransform":"uppercase","fontSize":"3rem","fontStyle":"normal","fontWeight":"800"}}} -->
+<h1 class="wp-block-heading alignwide" style="font-size:3rem;font-style:normal;font-weight:800;text-transform:uppercase">Empowering Victims.<br>Pursuing Justice.<br>Advocacy Tailored for You.</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"textTransform":"uppercase"},"spacing":{"padding":{"top":"24px","bottom":"24px"}}}} -->
 <p class="has-text-align-left" style="padding-top:24px;padding-bottom:24px;text-transform:uppercase">Jeff Rendel Law Group - Saint Louis' Preeminent Injury Law Practice</p>
 <!-- /wp:paragraph -->
 
-<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left","contentSize":"1280px"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
-<div class="wp-block-buttons"><!-- wp:button {"width":25,"style":{"border":{"radius":"0px"},"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"1px","textTransform":"uppercase"}},"className":"is-style-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-25 is-style-outline" style="font-style:normal;font-weight:500;letter-spacing:1px;text-transform:uppercase"><a class="wp-block-button__link wp-element-button" style="border-radius:0px">Our Results</a></div>
+<div class="wp-block-buttons"><!-- wp:button {"style":{"border":{"radius":"0px","width":"2px"},"typography":{"fontStyle":"normal","fontWeight":"500","letterSpacing":"1px","textTransform":"uppercase"}},"borderColor":"base-2","className":"is-style-outline hero-button"} -->
+<div class="wp-block-button is-style-outline hero-button" style="font-style:normal;font-weight:500;letter-spacing:1px;text-transform:uppercase"><a class="wp-block-button__link has-border-color has-base-2-border-color wp-element-button" style="border-width:2px;border-radius:0px">Our Results</a></div>
 <!-- /wp:button -->
 
-<!-- wp:button {"width":25,"style":{"border":{"radius":"0px"},"typography":{"textTransform":"uppercase","letterSpacing":"1px","fontStyle":"normal","fontWeight":"500"}},"className":"is-style-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-25 is-style-outline" style="font-style:normal;font-weight:500;letter-spacing:1px;text-transform:uppercase"><a class="wp-block-button__link wp-element-button" style="border-radius:0px">Our Reviews</a></div>
+<!-- wp:button {"style":{"border":{"radius":"0px","width":"2px"},"typography":{"textTransform":"uppercase","letterSpacing":"1px","fontStyle":"normal","fontWeight":"500"}},"borderColor":"base-2","className":"is-style-outline hero-button"} -->
+<div class="wp-block-button is-style-outline hero-button" style="font-style:normal;font-weight:500;letter-spacing:1px;text-transform:uppercase"><a class="wp-block-button__link has-border-color has-base-2-border-color wp-element-button" style="border-width:2px;border-radius:0px">Our Reviews</a></div>
 <!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group"><!-- wp:html -->
+<a class="desktop-only" 
+ href="#about-me">
+    <div class="round">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+   </a>
+<!-- /wp:html --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
