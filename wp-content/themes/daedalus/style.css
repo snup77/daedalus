@@ -227,3 +227,10 @@ html {
 .wp-block-navigation li {
 	text-transform: uppercase;
 }
+
+/* **** SEPARATOR STYLES **** */
+
+hr.wp-block-separator {
+    border-width: 0 0 4px 0 !important;
+    width:128px !important;
+}
