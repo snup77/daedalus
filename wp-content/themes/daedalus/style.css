@@ -265,3 +265,11 @@ html {
         padding-top: min(4rem, 5vw) !important;
     }
 }
+
+/* FOOTER STYLES */
+
+.footer-address address {
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
