@@ -252,3 +252,16 @@ html {
 .scroll-margin {
 	scroll-margin-top: 9rem;
 }
+
+/* home page about me styles */
+
+.about-me-height {
+    height: 100%;
+}
+
+@media (max-width: 782px) {
+    .mobile-homepage-aboutme-padding {
+        padding-bottom: min(6.5rem, 8vw) !important;
+        padding-top: min(4rem, 5vw) !important;
+    }
+}
