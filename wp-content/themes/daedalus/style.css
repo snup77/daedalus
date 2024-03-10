@@ -272,4 +272,11 @@ html {
     font-style: normal;
     font-size: 14px;
     color: white;
+    line-height: 2
+}
+
+.footer-positioning {
+    position: relative;
+    top: -7px;
+    margin-right: 8px !important;
 }
