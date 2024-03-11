@@ -253,6 +253,12 @@ html {
 	scroll-margin-top: 9rem;
 }
 
+/* home page our practice styles */
+
+.image-border {
+    box-shadow: 18px 18px 0 2px #D6DAE1;
+}
+
 /* home page about me styles */
 
 .about-me-height {
@@ -279,4 +285,28 @@ html {
     position: relative;
     top: -7px;
     margin-right: 8px !important;
+}
+@media (max-width: 1023px) {
+    .mobile-padding-bottom {
+        padding-bottom: 90px !important;
+    }
+}
+
+/* MOBILE ONLY STICKY FOOTER */
+
+@media (min-width: 1023px) {
+    .mobile-only {
+        display: none;
+    } 
+
+}
+
+@media (max-width: 1023px) {
+    .fixed-footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        z-index: 9999
+    }
 }
