@@ -1,128 +1,104 @@
 <?php
 /**
- * Title: Footer with colophon, 4 columns
+ * Title: Footer
  * Slug: twentytwentyfour/footer
  * Categories: footer
  * Block Types: core/template-part/footer
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"30%"} -->
-		<div class="wp-block-column" style="flex-basis:30%">
-			<!-- wp:group {"style":{"dimensions":{"minHeight":""},"layout":{"selfStretch":"fit","flexSize":null}},"layout":{"type":"flex","orientation":"vertical"}} -->
-			<div class="wp-block-group">
-				<!-- wp:site-logo {"width":20,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null}}} /-->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|10"}},"color":{"background":"#3b414f"}},"className":"mobile-padding-bottom","layout":{"type":"constrained"}} -->
+<div class="wp-block-group mobile-padding-bottom has-background" style="background-color:#3b414f;padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--10)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|60"},"blockGap":"0px","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","wideSize":"223px"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-right:var(--wp--preset--spacing--60)"><!-- wp:site-logo {"width":217,"shouldSyncIcon":true,"style":{"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"padding":{"bottom":"var:preset|spacing|20","top":"0","right":"0"},"margin":{"top":"0","bottom":"0","left":"0","right":"0"}}}} /-->
 
-				<!-- wp:site-title {"level":0,"fontSize":"medium"} /-->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<p class="has-base-2-color has-text-color has-link-color has-small-font-size">The lawyers at Jeff Rendel Law Group represent clients who have been wrongfully injured by the negligence of others.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
-				<!-- wp:site-tagline {"fontSize":"small"} /-->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"0"},"padding":{"top":"0"},"margin":{"top":"0","bottom":"0"}},"layout":{"selfStretch":"fixed","flexSize":"550px"}}} -->
+<div class="wp-block-columns" style="margin-top:0;margin-bottom:0;padding-top:0"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0"}}},"className":"footer-address"} -->
+<div class="wp-block-column footer-address" style="padding-top:0"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"700","textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<h4 class="wp-block-heading has-base-2-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:700;text-transform:uppercase">Contact Information</h4>
+<!-- /wp:heading -->
 
-		<!-- wp:column {"width":"20%"} -->
-		<div class="wp-block-column" style="flex-basis:20%">
-		</div>
-		<!-- /wp:column -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)"><!-- wp:separator {"style":{"color":{"background":"#3c65c7"}}} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background" style="background-color:#3c65c7;color:#3c65c7"/>
+<!-- /wp:separator --></div>
+<!-- /wp:group -->
 
-		<!-- wp:column {"width":"50%"} -->
-		<div class="wp-block-column" style="flex-basis:50%">
-			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-			<div class="wp-block-group">
-				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-				<div class="wp-block-group">
-					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'About', 'twentytwentyfour' ); ?></h2>
-					<!-- /wp:heading -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0.4rem"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:html -->
+<address>
+<strong>Jeff Rendel Law Group</strong>
+<br>
+802 Pine Street
+<br>
+Saint Louis, MO 63101
+</address>
+<!-- /wp:html -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group">
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<p class="has-base-2-color has-text-color has-link-color has-small-font-size">(314) 324-9823</p>
+<!-- /wp:paragraph -->
 
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'About', 'twentytwentyfour' ); ?>"} -->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<p class="has-base-2-color has-text-color has-link-color has-small-font-size">hello@jeffrendel.com</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column -->
 
-						<!-- wp:navigation-link {"label":"Team","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"History","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Careers","url":"#"} /-->
+<!-- wp:column {"width":"200px","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-column" style="flex-basis:200px"><!-- wp:heading {"level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"700","textTransform":"uppercase"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<h4 class="wp-block-heading has-base-2-color has-text-color has-link-color has-small-font-size" style="font-style:normal;font-weight:700;text-transform:uppercase">injury lawyers</h4>
+<!-- /wp:heading -->
 
-						<!-- /wp:navigation -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)"><!-- wp:separator {"style":{"color":{"background":"#3c65c7"}}} -->
+<hr class="wp-block-separator has-text-color has-alpha-channel-opacity has-background" style="background-color:#3c65c7;color:#3c65c7"/>
+<!-- /wp:separator --></div>
+<!-- /wp:group -->
 
-					</div>
-					<!-- /wp:group -->
-				</div>
+<!-- wp:group {"style":{"spacing":{"blockGap":"0.4rem"}},"layout":{"type":"constrained"},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<p class="has-base-2-color has-text-color has-link-color"><a href="/">Auto Accidents</a></p>
+<!-- /wp:paragraph -->
 
-				<!-- /wp:group -->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<p class="has-base-2-color has-text-color has-link-color"><a href="/">Wrongful Deaths</a></p>
+<!-- /wp:paragraph -->
 
-				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-				<div class="wp-block-group">
-					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Privacy', 'twentytwentyfour' ); ?></h2>
-					<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<p class="has-base-2-color has-text-color has-link-color"><a href="/">Medical Malpractice</a></p>
+<!-- /wp:paragraph -->
 
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group">
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<p class="has-base-2-color has-text-color has-link-color"><a href="/">Slip &amp; Fall Injuries</a></p>
+<!-- /wp:paragraph -->
 
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Privacy', 'twentytwentyfour' ); ?>"} -->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<p class="has-base-2-color has-text-color has-link-color"><a href="/">Negligent Securities</a></p>
+<!-- /wp:paragraph -->
 
-						<!-- wp:navigation-link {"label":"Privacy Policy","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Terms and Conditions","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Contact Us","url":"#"} /-->
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2"} -->
+<p class="has-base-2-color has-text-color has-link-color"><a href="/">Brain Injury</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
 
-						<!-- /wp:navigation -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<p class="has-base-2-color has-text-color has-link-color has-small-font-size">©2024 Jeff Rendel Law Group | Privacy Policy | Legal Disclaimer</p>
+<!-- /wp:paragraph -->
 
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-
-				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-				<div class="wp-block-group">
-					<!-- wp:heading {"level":2,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontFamily":"body"} -->
-					<h2 class="wp-block-heading has-medium-font-size has-body-font-family" style="font-style:normal;font-weight:600"><?php esc_html_e( 'Social', 'twentytwentyfour' ); ?></h2>
-					<!-- /wp:heading -->
-
-					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-					<div class="wp-block-group">
-
-						<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","ariaLabel":"<?php esc_attr_e( 'Social Media', 'twentytwentyfour' ); ?>"} -->
-
-						<!-- wp:navigation-link {"label":"Facebook","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Instagram","url":"#"} /-->
-						<!-- wp:navigation-link {"label":"Twitter/X","url":"#"} /-->
-
-						<!-- /wp:navigation -->
-
-					</div>
-					<!-- /wp:group -->
-				</div>
-				<!-- /wp:group -->
-			</div>
-			<!-- /wp:group -->
-		</div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
-
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0">
-		<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast-2","fontSize":"small"} -->
-		<p class="has-contrast-2-color has-text-color has-link-color has-small-font-size">
-		<?php
-			/* Translators: WordPress link. */
-			$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfour' ) ) . '" rel="nofollow">WordPress</a>';
-			echo sprintf(
-				/* Translators: Designed with WordPress */
-				esc_html__( 'Designed with %1$s', 'twentytwentyfour' ),
-				$wordpress_link
-			);
-			?>
-		</p>
-		<!-- /wp:paragraph -->
-	</div>
-	<!-- /wp:group -->
-</div>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"small"} -->
+<p class="has-base-2-color has-text-color has-link-color has-small-font-size">Law Firm Website by Sheth Agency</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->

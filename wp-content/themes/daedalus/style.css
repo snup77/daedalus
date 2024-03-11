@@ -259,6 +259,21 @@ html {
     box-shadow: 18px 18px 0 2px #D6DAE1;
 }
 
+@media screen and (max-width: 782px) {
+    .mobile-practice-area-spacing {
+        height: min(10.5rem, 13vw) !important;
+    }
+
+    .mobile-practice-section-spacing {
+        height: min(6.5rem, 8vw) !important;
+    }
+
+    .mobile-homepage-practice-spacing {
+        padding-bottom: min(10.5rem, 13vw) !important;
+    }
+}
+
+
 /* home page about me styles */
 
 .about-me-height {
@@ -293,6 +308,16 @@ html {
 }
 
 /* MOBILE ONLY STICKY FOOTER */
+
+.fixed-footer .mail-icon img {
+    position: relative;
+    top: 2px;
+    padding-right: 7px;
+}
+
+.fixed-footer .phone-icon img {
+    padding-right: 5px;
+}
 
 @media (min-width: 1023px) {
     .mobile-only {
