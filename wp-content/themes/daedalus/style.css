@@ -45,6 +45,16 @@ hr.wp-block-separator {
     width:128px !important;
 }
 
+/* **** LIST STYLES **** */
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-top: 0.8rem;
+}
+
 /* **** HEADER STYLES **** */
 
 .page-header {
@@ -359,7 +369,7 @@ html {
     width: auto;
     background-position: center top;
     background-repeat: no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     position: relative;
 }
 
@@ -372,5 +382,17 @@ html {
 
     .about-page-hero h1 {
         font-size: 1.39rem !important;
+    }
+}
+
+@media (min-width: 783px) {
+    .about-us-achievements {
+        margin-left: 32px !important;
+    }
+}
+
+@media (max-width: 782px) {
+    .about-us-achievements {
+        margin-top: min(6.5rem, 8vw) !important;
     }
 }
