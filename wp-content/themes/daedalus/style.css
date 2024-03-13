@@ -22,10 +22,18 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* **** BUTTON STYLES **** */
 
 .wp-block-button a {
 	transition: all 500ms ease-in;
+}
+
+.wp-block-button a:hover {
+    text-decoration: none;
 }
 
 .wp-block-button a:hover {
