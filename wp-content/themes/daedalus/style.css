@@ -335,3 +335,42 @@ html {
         z-index: 9999
     }
 }
+
+/* **** About PAGE STYLES **** */
+
+/* about hero styles */
+
+@media (max-width: 782px) {
+    .about-page-hero-copy {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+    }
+}
+
+@media (min-width: 783px) {
+    .mobile-only-background {
+        background-color: transparent !important;
+    }
+}
+
+.about-page-hero {
+    background-image: url("assets/images/jeff-rendel-about-page.jpg");
+    width: auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    position: relative;
+}
+
+@media (max-width: 782px) {
+    .about-page-hero {
+        background-image: url("assets/images/jeff-rendel-about-page-mobile.jpg");
+        min-height: 70vh !important;
+        background-position: 43% 19%;
+    }
+
+    .about-page-hero h1 {
+        font-size: 1.39rem !important;
+    }
+}
