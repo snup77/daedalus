@@ -9,6 +9,13 @@
 			"title": "Page No Title"
 		},
 		{
+			"name": "page-about2",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page About2"
+		},
+		{
 			"name": "page-with-sidebar",
 			"postTypes": [
 				"page"
