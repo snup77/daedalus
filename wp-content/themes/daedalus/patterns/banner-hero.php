@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Hero
- * Slug: twentytwentyfour/banner-hero
+ * Slug: daedalus/banner-hero
  * Categories: banner, call-to-action, featured
  * Viewport width: 1400
  */

@@ -2,7 +2,7 @@
 /**
  * Title: Home Page Hero
  * Slug: daedalus/homepage-hero
- * Categories: banners
+ * Categories: hero
  */
 ?>
 
@@ -30,7 +30,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:html -->
 <a class="desktop-only" 
- href="#about-me">
+ href="#our-practice-areas">
     <div class="round">
       <span></span>
       <span></span>

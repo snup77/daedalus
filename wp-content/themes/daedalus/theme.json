@@ -9,11 +9,18 @@
 			"title": "Page No Title"
 		},
 		{
-			"name": "page-about2",
+			"name": "page-about",
 			"postTypes": [
 				"page"
 			],
-			"title": "Page About2"
+			"title": "Page About"
+		},
+		{
+			"name": "page-practice-areas",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page Practice Areas"
 		},
 		{
 			"name": "page-with-sidebar",
@@ -970,6 +977,11 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
+		},
+		{
+			"area": "uncategorized",
+			"name": "mobile-call-now-cta",
+			"title": "Mobile Call Now CTA"
 		},
 		{
 			"area": "uncategorized",
