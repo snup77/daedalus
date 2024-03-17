@@ -10,7 +10,7 @@
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|20"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top" style="padding-top:0;padding-bottom:0"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":419,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/uploads/2024/03/auto-accidents.svg" alt="" class="wp-image-419"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/auto-accidents.svg" alt="" class="wp-image-419"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -28,7 +28,7 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":424,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/uploads/2024/03/wrongful-deaths.svg" alt="" class="wp-image-424"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/wrongful-deaths.svg" alt="" class="wp-image-424"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -46,7 +46,7 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":421,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/uploads/2024/03/medical-malpractice.svg" alt="" class="wp-image-421"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/medical-malpractice.svg" alt="" class="wp-image-421"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -66,7 +66,7 @@
 <!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"0"},"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|20"}}}} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:0"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":423,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/uploads/2024/03/slip-fall-injuries.svg" alt="" class="wp-image-423"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/slip-fall-injuries.svg" alt="" class="wp-image-423"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -84,7 +84,7 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":422,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/uploads/2024/03/negligent-securities.svg" alt="" class="wp-image-422"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/negligent-securities.svg" alt="" class="wp-image-422"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
@@ -102,7 +102,7 @@
 
 <!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0"}}} -->
 <div class="wp-block-column is-vertically-aligned-top"><!-- wp:image {"id":420,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/uploads/2024/03/brain-injuries.svg" alt="" class="wp-image-420"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/icons/brain-injuries.svg" alt="" class="wp-image-420"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
