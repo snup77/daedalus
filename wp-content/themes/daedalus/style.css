@@ -404,3 +404,61 @@ html {
         margin-top: min(6.5rem, 8vw) !important;
     }
 }
+
+
+form label {
+    font-weight: 600;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    height: 32px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+    background-color: #FDFDFD;
+    border: 1px solid #C3C3C3 !important;
+    border-radius: 0;
+    font-size: 17px;
+    padding-left: 16px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #3C65C7;
+    color: white;
+    border: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    transition: all 500ms ease-in;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #1E439A !important;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 2rem;
+}
+
+@media (max-width: 1023px) {
+    .contact-flex {
+        display: block;
+    }
+
+}
+
+
+.contact-flex p {
+    flex: 1;
+}
+
+.contact-page-address {
+    text-align: center;
+    font-style: normal;
+}

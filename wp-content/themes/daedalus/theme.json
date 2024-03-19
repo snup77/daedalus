@@ -16,11 +16,11 @@
 			"title": "Page About"
 		},
 		{
-			"name": "page-practice-areas",
+			"name": "page-practice-areas-list",
 			"postTypes": [
 				"page"
 			],
-			"title": "Page Practice Areas"
+			"title": "Page Practice Areas List"
 		},
 		{
 			"name": "page-with-sidebar",
