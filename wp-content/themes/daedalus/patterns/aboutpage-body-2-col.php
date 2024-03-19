@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: About Page Hero
+ * Title: About Page Section
  * Slug: daedalus/aboutpage-body
  * Categories: body, 2 col
  */
