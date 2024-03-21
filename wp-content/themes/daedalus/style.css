@@ -158,6 +158,23 @@ ul li {
 	background-color: #3B414F !important;
 }
 
+.has-modal-open .wp-block-navigation.items-justified-right {
+    --navigation-layout-justification-setting: flex-start;
+    --navigation-layout-justify: flex-start;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open,
+.wp-block-navigation__responsive-container-content,
+.wp-block-navigation__container,
+.wp-block-navigation__responsive-container.is-menu-open,
+.wp-block-navigation__responsive-container-content,
+.wp-block-navigation__submenu-container {
+    gap: 1.2rem;
+}
+
+/* .has-modal-open .wp-block-navigation-submenu {
+    line-height: 2rem;
+} */
 
 /* **** HOME PAGE STYLES **** */
 
@@ -461,4 +478,9 @@ input[type="submit"]:hover {
 .contact-page-address {
     text-align: center;
     font-style: normal;
+}
+
+hr.results-separator {
+    width: 100% !important;
+    border-width: 0 0 1.5px 0 !important;
 }
