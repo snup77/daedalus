@@ -53,6 +53,11 @@ hr.wp-block-separator {
     width:128px !important;
 }
 
+hr.results-separator {
+    width: 100% !important;
+    border-width: 0 0 1.5px 0 !important;
+}
+
 /* **** LIST STYLES **** */
 
 ul {
@@ -83,7 +88,7 @@ ul li {
 	}
 }
 
-/*Fixed/Sticky Header */
+/* Fixed/Sticky Header */
 .sticky-styles {
 	background-color: #3B414F !important;
 }
@@ -143,6 +148,7 @@ ul li {
     }
 }
 /* Remove the WordPress default mobile menu for 600px */
+
 @media (min-width: 600px) {
     .wp-block-navigation__responsive-container-open:not(.always-shown) {
         display: flex;
@@ -190,6 +196,14 @@ ul li {
 	width:100%;
 }
 
+@media (min-width: 1023px) {
+    .homepage-hero-heading-copy {
+        position: relative;
+        top: 50px;
+    }
+    
+}
+
 @media (max-width: 782px) {
     .mobile-reverse-column-direction {
         flex-direction: column-reverse;
@@ -202,8 +216,8 @@ ul li {
 .round {
     position: relative;
     border: 3px solid #fff;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 100%;
     animation: bounce .4s ease infinite alternate;
 }
@@ -212,7 +226,7 @@ ul li {
     z-index: 999;
     height: 3px;
     margin:1px;
-    width: 30px;
+    width: 28px;
     background: #fff;
     transition: 0.4s ease;
 }
@@ -422,6 +436,7 @@ html {
     }
 }
 
+/* **** CONTACT FORM STYLES **** */
 
 form label {
     font-weight: 600;
@@ -480,7 +495,10 @@ input[type="submit"]:hover {
     font-style: normal;
 }
 
-hr.results-separator {
-    width: 100% !important;
-    border-width: 0 0 1.5px 0 !important;
+/* Page With Copy Template */
+
+@media (max-width: 1023px) {
+    .page-with-copy-spacing {
+        padding-top: 160px !important;
+    }
 }

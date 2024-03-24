@@ -234,7 +234,7 @@
 				},
 				{
 					"name": "3",
-					"size": "min(2.5rem, 3vw)",
+					"size": "min(2.5rem, 5vw)",
 					"slug": "30"
 				},
 				{
