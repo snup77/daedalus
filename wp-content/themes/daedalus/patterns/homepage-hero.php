@@ -6,10 +6,11 @@
  */
 ?>
 
-<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/st-louis-arch.jpg","id":70,"dimRatio":20,"focalPoint":{"x":0.5,"y":0.73},"minHeight":100,"minHeightUnit":"vh","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px"}}},"className":"hero-image fullheight","layout":{"type":"default"}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/st-louis-arch.jpg","id":70,"dimRatio":20,"focalPoint":{"x":0.5,"y":0.73},"minHeight":100,"minHeightUnit":"vh","contentPosition":"center center","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"right":"0px","left":"0px"}}},"className":"hero-image fullheight","layout":{"type":"default"}} -->
 <div class="wp-block-cover hero-image fullheight" style="margin-top:0;margin-bottom:0;padding-right:0px;padding-left:0px;min-height:100vh"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-20 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-70" alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/st-louis-arch.jpg" style="object-position:50% 73%" data-object-fit="cover" data-object-position="50% 73%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"align":"wide","layout":{"type":"constrained","contentSize":"1280px","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"textTransform":"uppercase","fontSize":"3rem","fontStyle":"normal","fontWeight":"800"}}} -->
-<h1 class="wp-block-heading alignwide" style="font-size:3rem;font-style:normal;font-weight:800;text-transform:uppercase">Empowering Victims.<br>Pursuing Justice.<br>Advocacy Tailored for You.</h1>
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","className":"homepage-hero-heading-copy","layout":{"type":"default"}} -->
+<div class="wp-block-group alignwide homepage-hero-heading-copy"><!-- wp:heading {"level":1,"align":"wide","style":{"typography":{"textTransform":"uppercase","fontSize":"3rem","fontStyle":"normal","fontWeight":"800"}}} -->
+<h1 class="wp-block-heading alignwide" style="font-size:3rem;font-style:normal;font-weight:800;text-transform:uppercase">Empowering Victims.<br>Pursuing Justice.</h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left","style":{"typography":{"textTransform":"uppercase"},"spacing":{"padding":{"top":"24px","bottom":"24px"}}}} -->
@@ -41,10 +42,11 @@
 <!-- /wp:html --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"color":{"background":"#3b414fb8"}},"className":"cover-bottom-copy desktop-only","layout":{"type":"default"}} -->
-<div class="wp-block-group cover-bottom-copy desktop-only has-background" style="background-color:#3b414fb8"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"24px","bottom":"24px"}}},"layout":{"type":"constrained","contentSize":"1280px","justifyContent":"center"}} -->
+<!-- wp:group {"style":{"color":{"background":"#3b414fe6"}},"className":"cover-bottom-copy desktop-only","layout":{"type":"default"}} -->
+<div class="wp-block-group cover-bottom-copy desktop-only has-background" style="background-color:#3b414fe6"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"24px","bottom":"24px"}}},"layout":{"type":"constrained","contentSize":"1280px","justifyContent":"center"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:24px;padding-bottom:24px"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"22px","fontStyle":"normal","fontWeight":"500"}}} -->
 <p class="has-text-align-center" style="font-size:22px;font-style:normal;font-weight:500">Have an Injury Question?<br>Give Us a Call</p>

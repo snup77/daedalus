@@ -68,6 +68,12 @@ ul li {
     padding-top: 0.8rem;
 }
 
+/* ul ol .has-background bug fix */
+
+ol.has-background, ul.has-background {
+    padding: 0em;
+}
+
 /* **** HEADER STYLES **** */
 
 .page-header {
