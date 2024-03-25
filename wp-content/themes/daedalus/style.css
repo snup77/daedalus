@@ -184,9 +184,17 @@ ol.has-background, ul.has-background {
     gap: 1.2rem;
 }
 
-/* .has-modal-open .wp-block-navigation-submenu {
-    line-height: 2rem;
-} */
+.wp-block-navigation__submenu-container {
+    gap: 0;
+}
+
+@media (max-width: 1022px) {
+    .wp-block-navigation__submenu-container {
+        gap: .7em !important;
+        padding-top: .7em !important;
+    }
+}
+
 
 /* **** HOME PAGE STYLES **** */
 

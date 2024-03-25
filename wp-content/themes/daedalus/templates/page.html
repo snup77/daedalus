@@ -1,26 +1,14 @@
-<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header-transparent","theme":"daedalus","area":"header"} /-->
 
 <!-- wp:group {"tagName":"main"} -->
-<main class="wp-block-group">
-	<!-- wp:group {"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group">
-		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
+<main class="wp-block-group"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"isDark":false,"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"},"elements":{"link":{"color":{"text":"var:preset|color|base-2"}}}},"textColor":"base-2","fontSize":"x-large"} /--></div></div>
+<!-- /wp:cover -->
 
-		<!-- wp:post-title {"textAlign":"center","level":1} /-->
-
-		<!-- wp:spacer {"height":"var:preset|spacing|30","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-		<div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--30)" aria-hidden="true"
-			class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-
-		<!-- wp:post-featured-image {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|40"}}}} /-->
-	</div>
-	<!-- /wp:group -->
-
-	<!-- wp:post-content {"lock":{"move":false,"remove":true},"layout":{"type":"constrained"}} /-->
+<!-- wp:post-content {"lock":{"move":false,"remove":true},"layout":{"type":"default"}} /-->
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer","theme":"daedalus","tagName":"footer","area":"footer"} /-->
+
+<!-- wp:template-part {"slug":"mobile-call-now-cta","theme":"daedalus","area":"uncategorized"} /-->
