@@ -20,11 +20,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -40,11 +40,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -60,11 +60,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -82,11 +82,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -102,11 +102,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -122,11 +122,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -144,11 +144,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -164,11 +164,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -184,11 +184,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -204,11 +204,11 @@
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group"><!-- wp:image {"id":160,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/five-stars.svg" alt="" class="wp-image-160"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:image {"id":161,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/quotes.svg" alt="" class="wp-image-161"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

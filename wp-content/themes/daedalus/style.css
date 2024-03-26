@@ -26,6 +26,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a img {
+    padding-left: 3px;
+}
+
 /* **** BUTTON STYLES **** */
 
 .wp-block-button a {
@@ -371,6 +375,10 @@ html {
 }
 
 /* MOBILE ONLY STICKY FOOTER */
+
+.fixed-footer a img {
+    padding-left: 0;
+}
 
 .fixed-footer .mail-icon img {
     position: relative;

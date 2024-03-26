@@ -11,7 +11,7 @@
 <div class="wp-block-group alignwide"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"800"}},"className":"is-style-asterisk","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-left is-style-asterisk has-x-large-font-size" style="font-style:normal;font-weight:800">Our Practice Areas</h2>
+<h2 class="wp-block-heading has-text-align-left is-style-asterisk has-x-large-font-size" style="font-style:normal;font-weight:800"><?php echo esc_html_x('Our Practice Areas', 'Section heading', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"style":{"layout":{"selfStretch":"fixed","flexSize":"0px"},"spacing":{"margin":{"top":"24px","bottom":"24px"}},"color":{"background":"#3c65c7"}},"className":"is-style-default"} -->
@@ -19,13 +19,13 @@
 <!-- /wp:separator -->
 
 <!-- wp:paragraph {"align":"left","style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"medium"} -->
-<p class="has-text-align-left has-medium-font-size">Our firm offers unparalleled expertise and unwavering advocacy to ensure our clients receive the justice and compensation they deserve.</p>
+<p class="has-text-align-left has-medium-font-size"><?php echo esc_html_x('Our firm offers unparalleled expertise and unwavering advocacy to ensure our clients receive the justice and compensation they deserve.', 'Section copy', 'daedalus') ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"space-between","verticalAlignment":"center"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"1px"},"color":{"background":"#3c65c7"},"border":{"radius":"0px"}},"fontSize":"medium"} -->
-<div class="wp-block-button has-custom-font-size has-medium-font-size" style="letter-spacing:1px;text-transform:uppercase"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:0px;background-color:#3c65c7">View All</a></div>
+<div class="wp-block-button has-custom-font-size has-medium-font-size" style="letter-spacing:1px;text-transform:uppercase"><a class="wp-block-button__link has-background wp-element-button" style="border-radius:0px;background-color:#3c65c7"><?php echo esc_html_x('View All', 'Button text', 'daedalus') ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group -->
@@ -43,15 +43,15 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-asterisk","fontSize":"large"} -->
-<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="padding-top:0;padding-bottom:0;font-style:normal;font-weight:600">Auto Accidents</h3>
+<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="padding-top:0;padding-bottom:0;font-style:normal;font-weight:600"><?php echo esc_html_x('Auto Accidents', 'Heading for practice area', 'daedalus') ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">Our firm offers dedicated services to those affected by auto accidents, working tirelessly to secure fair compensation for their injuries and losses.</p>
+<p class="has-medium-font-size" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)"><?php echo esc_html_x('Our firm offers dedicated services to those affected by auto accidents, working tirelessly to secure fair compensation for their injuries and losses.', 'Practice area copy', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -63,15 +63,15 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"className":"mobile-reverse-column-direction"} -->
 <div class="wp-block-columns alignwide mobile-reverse-column-direction"><!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-asterisk","fontSize":"large"} -->
-<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="font-style:normal;font-weight:600">Medical Malpractice</h3>
+<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x('Medical Malpractice', 'Heading for practice area', 'daedalus') ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<p style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)">Our firm focuses on medical malpractice law, offering dedicated services to those who have suffered harm due to negligence or misconduct by healthcare professionals.</p>
+<p style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10)"><?php echo esc_html_x('Our firm focuses on medical malpractice law, offering dedicated services to those who have suffered harm due to negligence or misconduct by healthcare professionals.', 'Practice area copy', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -95,15 +95,15 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-asterisk","fontSize":"large"} -->
-<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="font-style:normal;font-weight:600">Slip &amp; Fall Injuries</h3>
+<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x('Slip and Fall Injuries', 'Practice area', 'daedalus') ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"right":"0","left":"0","top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<p style="padding-top:var(--wp--preset--spacing--10);padding-right:0;padding-bottom:var(--wp--preset--spacing--10);padding-left:0">We specialize in slip and fall law and are dedicated to helping clients recover compensation for their medical bills, lost wages, and other damages.</p>
+<p style="padding-top:var(--wp--preset--spacing--10);padding-right:0;padding-bottom:var(--wp--preset--spacing--10);padding-left:0"><?php echo esc_html_x('We specialize in slip and fall law and are dedicated to helping clients recover compensation for their medical bills, lost wages, and other damages.', 'Practice area copy', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
