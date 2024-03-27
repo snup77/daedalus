@@ -51,7 +51,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -71,7 +71,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -103,7 +103,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

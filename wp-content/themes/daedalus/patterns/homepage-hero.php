@@ -31,7 +31,7 @@
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
 <div class="wp-block-group"><!-- wp:html -->
 <a class="desktop-only" 
- href="#our-practice-areas">
+ href="<?php echo esc_url( '#our-practice-areas' ); ?>">
     <div class="round">
       <span></span>
       <span></span>
