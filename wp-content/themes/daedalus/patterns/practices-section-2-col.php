@@ -95,7 +95,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"className":"is-style-asterisk","fontSize":"large"} -->
-<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x('Slip and Fall Injuries', 'Practice area', 'daedalus') ?></h3>
+<h3 class="wp-block-heading is-style-asterisk has-large-font-size" style="font-style:normal;font-weight:600"><?php echo esc_html_x('Slip &amp; Fall Injuries', 'Practice area', 'daedalus') ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"right":"0","left":"0","top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
