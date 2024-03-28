@@ -477,6 +477,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     width: 100%;
 }
 
+form textarea {
+    padding-top: 16px;
+}
+
 input[type="submit"] {
     background-color: #3C65C7;
     color: white;

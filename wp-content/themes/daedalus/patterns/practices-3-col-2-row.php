@@ -14,15 +14,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600">Auto Accidents</h2>
+<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600"><?php echo esc_html_x('Auto Accidents', 'Practice area', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Personalized guidance and support for victims of auto accidents, ensuring fair compensation for injuries and damages sustained.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x('Personalized guidance and support for victims of auto accidents, ensuring fair compensation for injuries and damages sustained.', 'Service description', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -32,15 +32,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600">Wrongful Deaths</h2>
+<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600"><?php echo esc_html_x('Wrongful Deaths', 'Practice area', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Our attorneys offers compassionate guidance and aggressive representation to pursue justice and financial recovery for grieving families.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x('Our attorneys offers compassionate guidance and aggressive representation to pursue justice and financial recovery for grieving families.', 'Service description', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -50,15 +50,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600">Medical Malpractice</h2>
+<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600"><?php echo esc_html_x('Medical Malpractice', 'Practice area', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">We leverage our extensive expertise to hold negligent healthcare professionals accountable and obtain compensation for the harm caused.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x('We leverage our extensive expertise to hold negligent healthcare professionals accountable and obtain compensation for the harm caused.', 'Service description', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -70,15 +70,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600">Slip &amp; Fall Injuries</h2>
+<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600"><?php echo esc_html_x('Slip &amp; Fall Injuries', 'Practice area', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">Committed to investigate premise liability and pursue maximum compensation for clients injured due to property owner negligence.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x('Committed to investigate premise liability and pursue maximum compensation for clients injured due to property owner negligence.', 'Service description', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -88,15 +88,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600">Negligent Securities</h2>
+<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600"><?php echo esc_html_x('Negligent Securities', 'Practice area', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">We representing investors who have suffered financial losses due to fraudulent or deceptive practices.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x('We representing investors who have suffered financial losses due to fraudulent or deceptive practices.', 'Service description', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
@@ -106,15 +106,15 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"600","fontSize":"26px"},"spacing":{"padding":{"top":"var:preset|spacing|10","bottom":"var:preset|spacing|10"}}}} -->
-<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600">Brain Injuries</h2>
+<h2 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--10);padding-bottom:var(--wp--preset--spacing--10);font-size:26px;font-style:normal;font-weight:600"><?php echo esc_html_x('Brain Injuries', 'Practice area', 'daedalus') ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">We fight to secure compensation for medical expenses, lost wages, and long-term care needs resulting from these injuries.</p>
+<p class="has-medium-font-size"><?php echo esc_html_x('We fight to secure compensation for medical expenses, lost wages, and long-term care needs resulting from these injuries.', 'Service description', 'daedalus') ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"color":{"text":"#3c65c7"},"elements":{"link":{"color":{"text":"#3c65c7"}}},"typography":{"fontStyle":"normal","fontWeight":"700","textDecoration":"none"},"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"fontSize":"medium"} -->
-<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="/">Learn More <img class="wp-image-88" style="width: 17px;" src="http://jeff-rendel-law.local/wp-content/themes/daedalus/assets/images/arrow.svg" alt=""></a></p>
+<p class="has-text-color has-link-color has-medium-font-size" style="color:#3c65c7;padding-top:var(--wp--preset--spacing--10);font-style:normal;font-weight:700;text-decoration:none"><a href="<?php echo esc_url( '/' ); ?>"><?php echo esc_html_x('Learn More', 'link text', 'daedalus') ?><img class="wp-image-88" style="width: 17px;" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/arrow.svg" alt=""></a></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
