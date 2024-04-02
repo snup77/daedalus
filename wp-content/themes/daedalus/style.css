@@ -76,6 +76,7 @@ ul li {
 
 ol.has-background, ul.has-background {
     padding: 0em;
+    box-sizing: initial;
 }
 
 /* **** HEADER STYLES **** */
