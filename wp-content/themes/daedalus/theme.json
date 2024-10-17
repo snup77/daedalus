@@ -974,6 +974,11 @@
 			"title": "Footer"
 		},
 		{
+			"area": "footer2",
+			"name": "footer2",
+			"title": "Footer2"
+		},
+		{
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
