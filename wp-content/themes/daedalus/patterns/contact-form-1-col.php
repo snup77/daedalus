@@ -26,5 +26,4 @@
 [contact-form-7 id="745259a" title="Contact form 1"]
 <!-- /wp:shortcode --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group --></main>
 <!-- /wp:group -->
