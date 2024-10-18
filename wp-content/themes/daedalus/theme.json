@@ -16,6 +16,13 @@
 			"title": "Page About"
 		},
 		{
+			"name": "page-with-contact-sidebar",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page with Contact Form Sidebar"
+		},
+		{
 			"name": "page-practice-areas-list",
 			"postTypes": [
 				"page"
@@ -967,6 +974,11 @@
 			"area": "header",
 			"name": "header-transparent",
 			"title": "Header Transparent"
+		},
+		{
+			"area": "header",
+			"name": "header-transparent2",
+			"title": "Header Transparent2"
 		},
 		{
 			"area": "footer",
