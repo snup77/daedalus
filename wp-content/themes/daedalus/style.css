@@ -18,6 +18,13 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 /* **** GLOBAL STYLES **** */
 
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 a {
     text-decoration: none;
 }
@@ -54,7 +61,7 @@ a img {
 
 hr.wp-block-separator {
     border-width: 0 0 4px 0 !important;
-    width:128px !important;
+    /* width:128px !important; */
 }
 
 hr.results-separator {
@@ -473,6 +480,7 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
     background-color: #FDFDFD;
     border: 1px solid #C3C3C3 !important;
     border-radius: 0;
+    font-family: Inter, sans-serif;
     font-size: 17px;
     padding-left: 16px;
     width: 100%;
@@ -527,5 +535,37 @@ input[type="submit"]:hover {
 @media (max-width: 1023px) {
     .page-with-copy-spacing {
         padding-top: 160px !important;
+    }
+}
+
+.footer-contact-info address, .footer-contact-info p {
+    font-size: 16px !important;
+}
+
+.about-page-image img {
+    display: block;
+    margin: auto;
+}
+
+.contact-section-separator {
+    width: auto !important;
+}
+
+.contact-page-form-container {
+    padding-left: 7rem;
+    border-left: 2px solid #F08749;
+}
+
+@media screen and (max-width: 1200px) {
+    .contact-page-form-container {
+        padding-left: 3rem;
+        border-left: 2px solid #F08749;
+    }
+}
+
+@media screen and (max-width: 781px) {
+    .contact-page-form-container {
+        padding-left: 0;
+        border-left: none;
     }
 }
