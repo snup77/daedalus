@@ -1,3 +1,14 @@
-p {
-    font-size: 42px !important;
+/* Mobile Menu Styles */
+
+/* Hide submenu items on mobile menu */
+.wp-block-navigation-item.open-on-hover-click .wp-block-navigation-submenu__toggle[aria-expanded="false"] ~ ul.wp-block-navigation__submenu-container {
+    display: none;
 }
+
+button.wp-block-navigation__submenu-icon, button.wp-block-navigation-submenu__toggle {
+    display: block !important;
+}
+
+/* li.open-on-hover-click, li.wp-block-navigation-submenu {
+    flex-direction: row !important;
+} */

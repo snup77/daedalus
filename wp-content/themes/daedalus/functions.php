@@ -3,8 +3,9 @@
 if ( ! function_exists( 'daedalus_styles' ) ) :
 
 	function daedalus_styles() {
-		wp_enqueue_style( 'daedalus', get_stylesheet_uri() );
-		// wp_enqueue_style( 'daedalus', get_template_directory_uri() . '/assets/css/mobile-menu-styles.css' );
+		$theme_style = 'theme-style';
+		wp_enqueue_style( $theme_style, get_stylesheet_uri() );
+		wp_enqueue_style( 'mobile-menu-styles', get_template_directory_uri() . '/assets/css/mobile-menu-styles.css', array( $theme_style ) );
 	}
 endif;
 
