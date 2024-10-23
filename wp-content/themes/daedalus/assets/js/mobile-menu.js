@@ -14,14 +14,34 @@ const closeIcon = closeIcons[0];
 // trigger opacity layer on clicking open modal; remove on close when clicking close menu or opacity layer.
 openIcon.addEventListener("click", function() {
     opacityLayer.classList.add("modal-background");
-    // console.log("test 2");
 });
 
 closeIcon.addEventListener("click", function() {
-    // console.log("test-3");
     opacityLayer.classList.remove("modal-background");
 });
 
 opacityLayer.addEventListener("click", function() {
     opacityLayer.classList.remove("modal-background");
+});
+
+const chevrons = document.getElementsByClassName("wp-block-navigation__submenu-icon");
+const chevron = chevrons[0];
+
+const navLink = document.querySelector(".wp-block-navigation-submenu a");
+
+
+
+navLink.addEventListener("click", function(e) {
+    e.preventDefault();
+
+    let chevronAttribute = chevron.getAttribute("aria-expanded");
+    console.log(chevronAttribute);
+
+    chevron.setAttribute("aria-expanded", "true");
+
+    // if (chevronAttribute !== false) {
+    //     chevron.setAttribute("aria-expanded", "false");
+    // } else {
+    //     chevron.setAttribute("aria-expanded", "true");
+    // }
 });
