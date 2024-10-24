@@ -26,14 +26,15 @@ opacityLayer.addEventListener("click", function() {
 
 
 // get link and button elements
-const navLink = document.querySelector(".wp-block-navigation-submenu a");
+const navLinks = document.querySelectorAll(".wp-block-navigation-submenu > a");
 
 const chevrons = document.getElementsByClassName("wp-block-navigation__submenu-icon");
 const chevron = chevrons[0];
 
+console.log(navLinks);
 
 // listen for click event on submenu link and open-close menu
-navLink.addEventListener("click", function(e) {
+navLinks[0].addEventListener("click", function(e) {
     e.preventDefault();
 
     let chevronAttribute = chevron.getAttribute("aria-expanded");
@@ -61,4 +62,3 @@ chevron.addEventListener("click", function(e) {
         chevron.setAttribute("aria-expanded", "false");
     }
 }, true);
-
