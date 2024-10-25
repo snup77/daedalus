@@ -34,7 +34,7 @@ a:hover {
 }
 
 a img {
-    padding-left: 3px;
+    margin-left: 3px;
 }
 
 /* **** BUTTON STYLES **** */
@@ -132,7 +132,7 @@ ol.has-background, ul.has-background {
 .header-button-icon-positioning img {
 	position: relative;
     top: 2px;
-    padding-right: 8px;
+    margin-right: 8px;
 }
 
 .header-button-background a:hover {
@@ -411,7 +411,7 @@ html {
         left: 0;
         bottom: 0;
         width: 100%;
-        z-index: 9999
+        z-index: 500
     }
 }
 
